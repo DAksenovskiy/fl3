@@ -1,0 +1,16 @@
+include: package:mjk_lint_rules/mjk_lint_rules.yaml
+
+analyzer:
+  exclude:
+    - "build/**"
+    - "script/**"
+    - "**/*.g.dart"
+
+linter:
+  rules:
+    always_put_required_named_parameters_first: false
+    sort_pub_dependencies: false
+
+dart_code_metrics:
+  - member-ordering-extended:
+      severety: none

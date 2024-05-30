@@ -1,0 +1,45 @@
+name: country
+description: A new Flutter project.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  elementary: ^3.0.0
+  elementary_helper: ^1.0.1
+  cupertino_icons: ^1.0.5
+  dio: ^5.0.3
+  retrofit: ^4.0.1
+  provider: ^6.0.0
+  # json annotation
+  json_annotation: ^4.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # codegen for retrofit
+  retrofit_generator: ^6.0.0+1
+  # codegen builder - flutter pub run build_runner build
+  build_runner: ^2.2.1
+  # serialization json
+  json_serializable: ^6.5.4
+  # golden tests
+  golden_toolkit: ^0.15.0
+  # mocking
+  mocktail: ^1.0.0
+  # analyzer
+  mjk_lint_rules: ^2.0.0
+  # testing elementary
+  elementary_test: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/mock_data/
